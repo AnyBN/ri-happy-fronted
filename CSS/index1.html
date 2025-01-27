@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+
+        [title="Spotify"] {
+            color: rgb(21, 248, 13);
+        }
+        [title="Netflix"] {
+            color: rgba(212, 51, 40, 0.849);
+        }
+        [title="Prime"] {
+            color: rgb(77, 123, 250);
+        }
+        [title~="Streaming"] {
+            color: rgb(156, 236, 250);
+        }
+        [title|="Streaming"] {
+            color: rgb(75, 72, 245);
+        }
+
+            [href^="http://"] {
+                background: black;
+            }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <a title="Netflix" href="http://www.netflix.com/br/">
+                    Netflix
+                </a>
+            </li>
+            <li>
+                <a title="Prime" href="https://www.primevideo.com/offers/nonprimehomepage/ref=atv_sp_error_404">
+                    Prime Video
+                </a>
+            </li>
+            <li>
+                <a title="Spotify" href="https://www.spotify.com/br/">
+                    Spotify
+                </a>
+            </li>
+            <li>
+                <a title="Disney Streaming">
+                    Disney Plus
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

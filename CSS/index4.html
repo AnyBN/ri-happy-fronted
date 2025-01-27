@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trilha de CSS</title>
+    <style>
+/*
+* Propriedades básicas do CSS
+* width: Largura
+* Heigth: Altura
+* max-width e min-width
+* min-heigth e max-heigth
+auto: de acordo com o tamanho
+initial: valor padrão
+inherit: valor de acordo com o elemento
+* padding/margin: 1 valor - todos os lados; 2 valores - a, em cima, b embaixo;
+3 valores - em cima, lado, embaixo; 4 valores -  em cima, direto, baixo, esquerda.
+* padding/margin-top
+* padding/margin-botton
+* padding/margin-left
+* padding/margin-right
+(marging, espaçameto externo, padding  externo)
+box-size (reduz o tamanho para caber de acordo com o px estabelecido)
+- content-box = soma valor do padding, altura e largura
+- border-box = redimenciona o elemento para os estabelecidos.
+*/
+
+        div {
+            background: lightgreen;
+            width: 200px;
+            height: 25px;
+        }
+
+        #div-01 {
+            background: lightcoral;
+            height: 200px;
+            width: 200px;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        #div-02 {
+            background: lightblue;
+            height: 200px;
+            margin-top: 20px;
+        }
+
+        button {
+            background: black;
+            color: white;
+            margin-top: 20px;
+            min-height: 200px;
+            max-width: 590px;
+        }
+    </style>
+</head>
+<body>
+    <div>Trilha de CSS</div>
+
+    <br></br>
+    <div id="div-01">Está é a div 01.</div>
+    <div id="div-02">Está é a div 02.</div>
+
+    <br>
+    <button>
+        cnecerhbheiab
+    </button>
+</body>
+</html>

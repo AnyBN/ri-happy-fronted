@@ -1,0 +1,26 @@
+h1 {
+    background:green;
+    color: white;
+}
+h2 {
+    color: rgb(21, 255, 0);
+}
+div {
+    background: lightgreen
+}
+#texto-boas-vindas {
+    background: rgb(235, 162, 162);
+    color: black;
+}
+
+.seletores-mais-comuns {
+    background: rgb(175, 175, 247);
+}
+
+.texto-maiusculo {
+    text-transform: uppercase;
+}
+
+* {
+    font-weight: bold;
+}
