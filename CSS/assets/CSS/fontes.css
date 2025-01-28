@@ -1,0 +1,49 @@
+@font-face {
+    font-family: roboto;
+    src: url(../RobotoCondensed-VariableFont_wght.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../RobotoCondensed-Italic-VariableFont_wght.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(../RobotoCondensed-Thin.ttf);
+    font-weight: lighter;
+}
+
+h1 {
+    font-family: roboto;
+    font-weight: bold;
+}
+
+@import url("../css/global.css");
+p {
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    line-height: 2;
+}
+
+#p1 {
+    font-size: x-small;
+    font-style: oblique;
+    font-stretch: ultra-expanded;
+}
+
+#p2 {
+    font: italic small-caps bold x-small georgia, serif;
+}
+/*
+font-size: xx-small/x-small/small/medium/
+large/x-large/xx-large
+font-style: normal/italic/oblique
+font-weight: normal/bold/(numeração)/bolder/lighter
+font-variant: normal/small-caps
+font-stretch: semi-condensed/normal/semi-expanded/expandade/extra-expanded/ultra-expanded
+line-height: (numeros)/normal/(min 1.5)
+*/
