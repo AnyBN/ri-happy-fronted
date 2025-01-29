@@ -1,0 +1,42 @@
+/*text-transform: none/capitalize/upercase/lowercase/initial/inherit/initial
+text-align: left/right/center/justify;
+text-decoration: none/underlie/line-through/overline;
+white-space: normal/nowrap/pre/pre-line/pre-wrap/break-spaces
+word-break: break-all/keep-all/
+word-wrap: break-word/normal
+writing-mode: horizontal-tb/vertical-rl/vertical-lr/
+text-overflow: clip/ellipsis/string
+*/
+.exemplo {
+    width: 370px;
+    border:1px solid black;
+    padding: 10px;
+    background-color: rgb(250, 198, 198);
+    text-align: justify;
+    text-decoration: underline;
+    text-indent: 20px;
+    word-spacing: -5px;
+}
+
+h1 {
+    letter-spacing: 10px;
+}
+h1 + p {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: red;
+    text-decoration-thickness: 2px;
+}
+
+.teste {
+    background-color: green;
+    color:bisque;
+    text-overflow: ellipsis;
+}
+.teste1{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    text-overflow: clip;
+}
